@@ -1,0 +1,17 @@
+{
+    "LxkEmployee":
+    {
+        "children": ["Juan", "Alexa"]
+    },
+    "Juan":
+    {
+        "name": "Juan",
+        "team": "fax"
+    },
+    "Alexa":
+    {
+        "name": "Alexa",
+        "team": "scan"
+    }
+
+}
