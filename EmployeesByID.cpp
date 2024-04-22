@@ -19,8 +19,6 @@ int main()
     std::ifstream file("Employees.json");
     json jsonData;
     file >> jsonData;
-    int ii = 0;
-    int columnId = 0;
     std::vector<Employee> arr; // [id][first_name]
 
     for(const auto& employee : jsonData["Employee"]["children"]){
