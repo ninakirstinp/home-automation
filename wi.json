@@ -1,0 +1,35 @@
+{
+    "employees": [
+      {
+        "first_name": "Juan",
+        "last_name": "Dela Cruz",
+        "id": "1234",
+        "team": "fax"
+      },
+      {
+        "first_name": "Mary",
+        "last_name": "Young",
+        "id": "9678",
+        "team": "scan"
+      },
+      {
+        "first_name": "Jacob",
+        "last_name": "Gerez",
+        "id": "6573",
+        "team": "scan"
+      },
+      {
+        "first_name": "Clint",
+        "last_name": "Yap",
+        "id": "8356",
+        "team": "fax"
+      },
+      {
+        "first_name": "Taylor",
+        "last_name": "Swift",
+        "id": "5473",
+        "team": "fax"
+      }
+    ]
+  }
+  
