@@ -35,13 +35,11 @@ int main()
 
     for(const auto& emp : faxArray)
         fax += emp.firstName + ", ";
-    if (!fax.empty())
-        fax.erase(fax.end() - 2, fax.end());
+    fax.erase(fax.end() - 2, fax.end());
 
     for(const auto& emp : scanArray)
         scan += emp.firstName + ", ";
-    if (!fax.empty())
-        scan.erase(scan.end() - 2, scan.end());
+    scan.erase(scan.end() - 2, scan.end());
 
     std::cout << "Fax: " << fax << std::endl;
     std::cout << "Scan: " << scan << std::endl;
