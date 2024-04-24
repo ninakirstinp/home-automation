@@ -26,7 +26,7 @@ int main()
     std::vector<Employee> arr; //vector array for employees
 
     //put specific contents (i.e team/first_name/id/etc) into an instance
-    //which then get put into the team of the instance into respective array
+    //which then get put into array
     for(const auto& employee : jsonData["Employee"]["children"]){
         Employee emp;
         emp.id = jsonData[employee]["id"];
