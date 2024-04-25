@@ -44,11 +44,11 @@ int main()
     //indexes of the arrays get put into one string for their respective team
     for(const auto& emp : faxArray)
         fax += emp.firstName + ", ";
-    fax.erase(fax.end() - 2, fax.end());
+    fax.erase(fax.end() - 2);
 
     for(const auto& emp : scanArray)
         scan += emp.firstName + ", ";
-    scan.erase(scan.end() - 2, scan.end());
+    scan.erase(scan.end() - 2);
 
     std::cout << "Fax: " << fax << std::endl;
     std::cout << "Scan: " << scan << std::endl;
